@@ -877,7 +877,7 @@
             modifier = {
                 add = 90000
                 scope:character ?= {
-                    has_template = usa_emperor_norton_character_template
+                    has_template = usa_joshua_norton_character_template
                     NOR = {
                         has_role = general
                         has_role = admiral
