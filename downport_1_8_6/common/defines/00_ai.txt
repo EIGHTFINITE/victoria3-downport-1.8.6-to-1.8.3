@@ -838,7 +838,7 @@
 	PRODUCTION_METHOD_PROFIT_FACTOR = 1 # Per pound of profit the produced goods would generate
 	PRODUCTION_METHOD_DEFICIT_FACTOR = 1.5 # Per pound of deficit the produced goods would generate (multiplies a negative value)
 	PRODUCTION_METHOD_PRODUCED_VALUE_FACTOR = 0.25 # Per pound of produced goods in base value
-	PRODUCTION_METHOD_EMPLOYMENT_CHANGE_FACTOR = 2.0 # The total score of a PM will be multiplied or divided by 1 + ( this * the proportion of labor that is added or saved by the change )
+	PRODUCTION_METHOD_EMPLOYMENT_CHANGE_FACTOR = -0.5 # Per extra employee the employment method would require (reduced employment = higher score)
 	PRODUCTION_METHOD_REDUCE_OUTPUT_PENALTY_FACTOR = 10 # Multiply method score by this if we're reducing the building's output penalties
 	PRODUCTION_METHOD_INCREASE_OUTPUT_PENALTY_FACTOR = 0.01 # Multiply method score by this if we're increasing the building's output penalties
 	PRODUCTION_METHOD_FAVORED_GOODS_FACTOR = 0.25 # Per base cost * units of goods produced that the AI favors (for non military goods)
