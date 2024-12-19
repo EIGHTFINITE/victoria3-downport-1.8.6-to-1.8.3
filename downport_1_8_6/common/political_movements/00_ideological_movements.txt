@@ -1441,7 +1441,7 @@ movement_labor = { # Explicitly non-socialist labour movement
 		}
 		if = { # Communists will support the labour movement if they really, really have to
 			limit = {
-				owner = {
+				owner ?= {
 					any_political_movement = {
 						OR = {
 							is_political_movement_type = movement_anarchist
